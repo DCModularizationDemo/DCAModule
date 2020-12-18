@@ -40,8 +40,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
-        NSString *result = [[CTMediator sharedInstance] DCAModule_test];
-        NSLog(@"%@", result);
+//        NSString *result = [[CTMediator sharedInstance] DCAModule_test];
+//        NSLog(@"%@", result);
     }
 }
 
