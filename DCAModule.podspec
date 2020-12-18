@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
                     this is DCAModule
                    DESC
 
-  s.homepage     = "https://github.com/DCModularizationDemo/DCAModule"
+  s.homepage     = "https://github.com/DCModularizationDemo/DCAModule/tree/1.0.1"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -138,5 +138,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "CTMediator"
-
+    s.dependency "DCBModule_Category"
 end

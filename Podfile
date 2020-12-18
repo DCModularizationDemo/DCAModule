@@ -13,5 +13,5 @@ target 'DCAModule' do
 
   # private pods
   pod "HandyFrame"
- 
+  pod "DCBModule_Category"
 end
