@@ -6,7 +6,7 @@
 //
 
 #import "AViewController.h"
-#import "BViewController.h"
+#import <CTMediator+DCBModule_Category.h>
 @interface AViewController ()
 @property (nonatomic, strong) UIButton *pushButton;
 @end
@@ -21,7 +21,7 @@
     
 }
 - (void)push{
-    BViewController *vc = [[BViewController alloc]init];
+    UIViewController *vc = [[CTMediator sharedInstance] DCBModule_viewControllerWithContentText:@"form AViewController"];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
