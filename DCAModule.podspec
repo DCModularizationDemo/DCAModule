@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-# version.develop = 7
+# version.develop = 8
 # version.test = 0
 # version.gray = 0
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DCAModule"
-  s.version      = "7.0.0"
+  s.version      = "8.0.0"
   s.summary      = "DCAModule."
 
   # This description is used to generate tags and improve search results.
@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DCAModule/DCAModule/**/*.{h,m}"
+  s.source_files  = "DCAModule/Source/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
