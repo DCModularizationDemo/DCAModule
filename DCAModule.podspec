@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-# version.develop = 1
+# version.develop = 2
 # version.test = 0
 # version.gray = 0
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DCAModule"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "DCAModule."
 
   # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
                     this is DCAModule
                    DESC
 
-  s.homepage     = "https://github.com/DCModularizationDemo/DCAModule/tree/1.0.1"
+  s.homepage     = "https://github.com/DCModularizationDemo/DCAModule/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
