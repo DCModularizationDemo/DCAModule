@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183504D91EF798E23A899E17 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24FB43E57270863FEBB7CD /* AViewController.m */; };
 		3B0040405061367AB4C0E9BF /* Pods_DCAModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAF5ACD5C97F919B8C8E492 /* Pods_DCAModule.framework */; };
 		43B6FDCF258B319000CCE032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6FDCE258B319000CCE032 /* AppDelegate.m */; };
 		43B6FDD2258B319000CCE032 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6FDD1258B319000CCE032 /* SceneDelegate.m */; };
@@ -21,7 +22,12 @@
 		43B6FEDE258C834200CCE032 /* Target_DCAModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B6FED9258C834200CCE032 /* Target_DCAModule.h */; };
 		43B6FEDF258C834200CCE032 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6FEDB258C834200CCE032 /* AViewController.m */; };
 		43B6FEE0258C834200CCE032 /* AViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B6FEDC258C834200CCE032 /* AViewController.h */; };
+		4401D5A6B1C89DCE5D702396 /* CTMediator+DCAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 142FA665516F410728173DCB /* CTMediator+DCAModule.m */; };
 		56F29FC990707048F4D8B7D0 /* CTMediator+DCAModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 19807E1E24C37FA58D23A408 /* CTMediator+DCAModule.h */; };
+		605AA8CDEB64741F37161935 /* AViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE26812C86E777AA1D80BB8 /* AViewController.h */; };
+		72124CB67830AD2DF68EFE63 /* CTMediator+DCAModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A584D3EAE936A7D54497B1 /* CTMediator+DCAModule.h */; };
+		869A37828F8C0EA4E9AD7F29 /* Target_DCAModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0755D1CE55D970C00DC68D /* Target_DCAModule.h */; };
+		B911FE6933C3604F06B232CB /* Target_DCAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 995BE9CA42A6EF846AEC0CD3 /* Target_DCAModule.m */; };
 		FBFA4B8CF66D54CB962DE805 /* CTMediator+DCAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B61A9ABC0F8C62ABA83323 /* CTMediator+DCAModule.m */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A326C90D28073437B8E4A37 /* DCAModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = DCAModule.podspec; path = ../DCAModule.podspec; sourceTree = "<group>"; };
 		0E82F0C0D66BE60DC27B75F4 /* Pods-DCAModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCAModule.release.xcconfig"; path = "Target Support Files/Pods-DCAModule/Pods-DCAModule.release.xcconfig"; sourceTree = "<group>"; };
+		142FA665516F410728173DCB /* CTMediator+DCAModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+DCAModule.m"; path = "Category/CTMediator+DCAModule.m"; sourceTree = "<group>"; };
 		19807E1E24C37FA58D23A408 /* CTMediator+DCAModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+DCAModule.h"; path = "Category/CTMediator+DCAModule.h"; sourceTree = "<group>"; };
 		29B61A9ABC0F8C62ABA83323 /* CTMediator+DCAModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+DCAModule.m"; path = "Category/CTMediator+DCAModule.m"; sourceTree = "<group>"; };
 		2BD62A9BF3633AF6E94D2464 /* DCAModule_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = DCAModule_Extension.podspec; path = ../DCAModule_Extension.podspec; sourceTree = "<group>"; };
+		2D24FB43E57270863FEBB7CD /* AViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		43B6FDCA258B319000CCE032 /* DCAModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCAModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B6FDCD258B319000CCE032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43B6FDCE258B319000CCE032 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,9 +78,14 @@
 		43B6FED9258C834200CCE032 /* Target_DCAModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_DCAModule.h; sourceTree = "<group>"; };
 		43B6FEDB258C834200CCE032 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		43B6FEDC258C834200CCE032 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		4B0755D1CE55D970C00DC68D /* Target_DCAModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_DCAModule.h; sourceTree = "<group>"; };
 		4CFFB1B960C4DE21F857DE95 /* DCAModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = DCAModule.podspec; path = ../DCAModule.podspec; sourceTree = "<group>"; };
+		5CE26812C86E777AA1D80BB8 /* AViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		995BE9CA42A6EF846AEC0CD3 /* Target_DCAModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_DCAModule.m; sourceTree = "<group>"; };
 		AEAF5ACD5C97F919B8C8E492 /* Pods_DCAModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCAModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAFCAACD238619DC92AACCE /* Pods-DCAModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCAModule.debug.xcconfig"; path = "Target Support Files/Pods-DCAModule/Pods-DCAModule.debug.xcconfig"; sourceTree = "<group>"; };
+		D2A584D3EAE936A7D54497B1 /* CTMediator+DCAModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+DCAModule.h"; path = "Category/CTMediator+DCAModule.h"; sourceTree = "<group>"; };
+		F5651D5753DF9557630B155A /* DCAModule_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = DCAModule_Extension.podspec; path = ../DCAModule_Extension.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +121,20 @@
 				0E82F0C0D66BE60DC27B75F4 /* Pods-DCAModule.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		16D7191A97F8D1429860BEC2 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
+		31D7A8B36978BE660870AD4D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 		42EFC0C1F759050CE52FF0E2 /* Frameworks */ = {
@@ -157,6 +185,10 @@
 				48C0A2CE8289B7167ADDD55F /* Category */,
 				4CFFB1B960C4DE21F857DE95 /* DCAModule.podspec */,
 				2BD62A9BF3633AF6E94D2464 /* DCAModule_Extension.podspec */,
+				31D7A8B36978BE660870AD4D /* Source */,
+				C545D5299CBC56F4304B3B53 /* Category */,
+				0A326C90D28073437B8E4A37 /* DCAModule.podspec */,
+				F5651D5753DF9557630B155A /* DCAModule_Extension.podspec */,
 			);
 			path = DCAModule;
 			sourceTree = "<group>";
@@ -184,6 +216,8 @@
 			children = (
 				43B6FED7258C834200CCE032 /* Target */,
 				43B6FEDA258C834200CCE032 /* AModule */,
+				16D7191A97F8D1429860BEC2 /* Target */,
+				F1366D153758F52C9E0AC2B2 /* AModule */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -193,6 +227,8 @@
 			children = (
 				43B6FED8258C834200CCE032 /* Target_DCAModule.m */,
 				43B6FED9258C834200CCE032 /* Target_DCAModule.h */,
+				995BE9CA42A6EF846AEC0CD3 /* Target_DCAModule.m */,
+				4B0755D1CE55D970C00DC68D /* Target_DCAModule.h */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -202,6 +238,8 @@
 			children = (
 				43B6FEDB258C834200CCE032 /* AViewController.m */,
 				43B6FEDC258C834200CCE032 /* AViewController.h */,
+				2D24FB43E57270863FEBB7CD /* AViewController.m */,
+				5CE26812C86E777AA1D80BB8 /* AViewController.h */,
 			);
 			path = AModule;
 			sourceTree = "<group>";
@@ -211,8 +249,24 @@
 			children = (
 				29B61A9ABC0F8C62ABA83323 /* CTMediator+DCAModule.m */,
 				19807E1E24C37FA58D23A408 /* CTMediator+DCAModule.h */,
+				142FA665516F410728173DCB /* CTMediator+DCAModule.m */,
+				D2A584D3EAE936A7D54497B1 /* CTMediator+DCAModule.h */,
 			);
 			name = Category;
+			sourceTree = "<group>";
+		};
+		C545D5299CBC56F4304B3B53 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		F1366D153758F52C9E0AC2B2 /* AModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +279,9 @@
 				43B6FEDE258C834200CCE032 /* Target_DCAModule.h in Headers */,
 				56F29FC990707048F4D8B7D0 /* CTMediator+DCAModule.h in Headers */,
 				43B6FEE0258C834200CCE032 /* AViewController.h in Headers */,
+				869A37828F8C0EA4E9AD7F29 /* Target_DCAModule.h in Headers */,
+				605AA8CDEB64741F37161935 /* AViewController.h in Headers */,
+				72124CB67830AD2DF68EFE63 /* CTMediator+DCAModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +466,9 @@
 				43B6FEDF258C834200CCE032 /* AViewController.m in Sources */,
 				43B6FDD2258B319000CCE032 /* SceneDelegate.m in Sources */,
 				FBFA4B8CF66D54CB962DE805 /* CTMediator+DCAModule.m in Sources */,
+				B911FE6933C3604F06B232CB /* Target_DCAModule.m in Sources */,
+				183504D91EF798E23A899E17 /* AViewController.m in Sources */,
+				4401D5A6B1C89DCE5D702396 /* CTMediator+DCAModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,8 +13,5 @@ target 'DCAModule' do
 
   # private pods
   pod "HandyFrame"
-  # pod "DCBModule_Category", :path => "../DCBModule_Category"
-  pod "DCBModule_Category"
-
  
 end

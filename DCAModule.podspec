@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-# version.develop = 3
+# version.develop = 1
 # version.test = 0
 # version.gray = 0
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DCAModule"
-  s.version      = "3.0.0"
+  s.version      = "1.0.0"
   s.summary      = "DCAModule."
 
   # This description is used to generate tags and improve search results.
@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DCAModule/Source/**/*.{h,m}"
+  s.source_files  = "DCAModule/DCAModule/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -138,5 +138,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "CTMediator"
-    s.dependency "DCBModule_Category"
+
 end

@@ -7,12 +7,12 @@
 //
 
 #import "Target_DCAModule.h"
-#import "AViewController.h"
+
 @implementation Target_DCAModule
 
-- (UIViewController *)Action_viewController:(NSDictionary *)params
+- (NSString *)Action_test:(NSDictionary *)params
 {
-    AViewController *viewController = [[AViewController alloc] init];
-    return viewController;
+    return @"success";
 }
+
 @end
