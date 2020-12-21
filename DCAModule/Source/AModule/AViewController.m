@@ -6,8 +6,7 @@
 //
 
 #import "AViewController.h"
-//#import "CTMediator+DCBModule_Category.h"
-@import DCBModule_Category;
+#import <DCBModule_Category/CTMediator+DCBModule_Category.h>
 
 @interface AViewController ()
 @property (nonatomic, strong) UIButton *pushButton;
